@@ -1,0 +1,438 @@
+3/30/2017 6:42:35 PM
+OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 143
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:45:32 PM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:52:21 PM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:52:40 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   в OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 773/30/2017 11:52:50 PM
+ERROR
+System.InvalidOperationException: Tried to run command without establishing a connection
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   в OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 693/30/2017 11:53:26 PM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:54:06 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:54:45 PM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:56:09 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:56:17 PM
+ERROR
+System.InvalidOperationException: Tried to run command without establishing a connection
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   в OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 693/30/2017 11:58:20 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:59:29 PM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/30/2017 11:59:51 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.get_Displayed()
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:00:27 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:03:21 AM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: .gamertagNotAvailablePrompts
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- Конец трассировки внутреннего стека исключений ---
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 139
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:03:30 AM
+ERROR
+System.InvalidOperationException: Tried to run command without establishing a connection
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   в OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 693/31/2017 12:09:33 AM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 144
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:11:07 AM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 144
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:14:22 AM
+ERROR
+OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 145
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:15:24 AM
+ERROR
+OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 146
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:16:24 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 149
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 12:18:11 AM
+ERROR
+OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:51658/session/8f63d5bd-a830-4f6e-969b-97a38be1ee97/execute/sync timed out after 60 seconds. ---> System.Net.WebException: Время ожидания операции истекло
+   в System.Net.HttpWebRequest.GetResponse()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   --- Конец трассировки внутреннего стека исключений ---
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 150
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 8:07:09 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 150
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 8:13:06 AM
+ERROR
+OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 146
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 8:17:18 AM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 7.5 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 140
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 8:18:30 AM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 7.5 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: *[name="NewGamertag"]
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByName(String name)
+   в OpenQA.Selenium.By.<>c__DisplayClassa.<Name>b__8(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- Конец трассировки внутреннего стека исключений ---
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 124
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 8:34:04 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 145
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 8:41:47 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 143
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 117
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 863/31/2017 8:42:52 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 143
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 117
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 863/31/2017 8:44:54 AM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 143
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 117
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 863/31/2017 2:57:32 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 141
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 115
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 3:07:21 PM
+ERROR
+System.ArgumentException: Невозможно добавить или вставить элемент 'The gamertag name is: RepaidSoda13466.' в несколько позиций. Сначала удалите его из текущей позиции или создайте его копию.
+Имя параметра: item
+   в System.Windows.Forms.ListView.InsertItems(Int32 displayIndex, ListViewItem[] items, Boolean checkHosting)
+   в System.Windows.Forms.ListView.ListViewNativeItemCollection.Add(ListViewItem value)
+   в System.Windows.Forms.ListView.ListViewItemCollection.Add(ListViewItem value)
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 109
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 3:10:49 PM
+ERROR
+System.InvalidOperationException: Failed to decode response from marionette
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 147
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 120
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 843/31/2017 4:10:45 PM
+ERROR
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 793/31/2017 5:18:28 PM
+ERROR
+System.AggregateException: Произошла одна или несколько ошибок. ---> OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   в System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.Wait()
+   в System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   в System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body)
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 119
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 88
+---> (Внутреннее исключение #0) OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )<---
+
+---> (Внутреннее исключение #1) OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )<---
+
+---> (Внутреннее исключение #2) OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )<---
+4/6/2017 9:50:29 PM
+ERROR
+System.AggregateException: Произошла одна или несколько ошибок. ---> OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   в System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   в System.Threading.Tasks.Task.Wait()
+   в System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   в System.Threading.Tasks.Parallel.For(Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body)
+   в XGA.XboxLiveWorker.openTabsCheck(FirefoxDriver driver, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 119
+   в XGA.XboxLiveWorker.loginXboxLive(String username, String password, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 88
+---> (Внутреннее исключение #0) OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )<---
+
+---> (Внутреннее исключение #1) OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )<---
+
+---> (Внутреннее исключение #2) OpenQA.Selenium.ElementNotVisibleException
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   в XGA.XboxLiveWorker.claimTag(FirefoxDriver driver, Int32 count, GUI form) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 159
+   в XGA.XboxLiveWorker.<>c__DisplayClass8_0.<openTabsCheck>b__2(Int32 index) в C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\XboxLiveWorker.cs:строка 126
+   в System.Threading.Tasks.Parallel.<>c__DisplayClass9`1.<ForWorker>b__11()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   в System.Threading.Tasks.Task.<>c__DisplayClass0.<ExecuteSelfReplicating>b__1(Object )<---

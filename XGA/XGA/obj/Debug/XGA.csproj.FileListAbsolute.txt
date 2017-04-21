@@ -1,0 +1,15 @@
+c:\users\neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\XGA.exe.config
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\XGA.exe
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\XGA.pdb
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\AngleSharp.dll
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\WebDriver.dll
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\AngleSharp.xml
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\WebDriver.xml
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Debug\XGA.csprojResolveAssemblyReference.cache
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Debug\XGA.exe
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Debug\XGA.pdb
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\WebDriver.Support.dll
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Debug\WebDriver.Support.xml
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Debug\XGA.GUI.resources
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Debug\XGA.csproj.GenerateResource.Cache
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Debug\XGA.XboxLiveWorker.resources

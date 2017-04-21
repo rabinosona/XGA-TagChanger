@@ -1,0 +1,9 @@
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\XGA.exe.config
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\XGA.exe
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\XGA.pdb
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\AngleSharp.dll
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\WebDriver.dll
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\AngleSharp.xml
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\bin\Release\WebDriver.xml
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Release\XGA.exe
+C:\Users\Neuron\documents\visual studio 2015\Projects\XGA\XGA\obj\Release\XGA.pdb
